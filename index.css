@@ -1,0 +1,314 @@
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: "Helvetica", "Segoe UI", "Roboto", "sans-serif";
+}
+
+body {
+    background-color: #000000;
+}
+
+.netflix-website{
+    height: 50rem;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: linear-gradient(65deg, #000000, transparent) ,url('https://assets.nflxext.com/ffe/siteui/vlv3/151f3e1e-b2c9-4626-afcd-6b39d0b2694f/web/IN-en-20241028-TRIFECTA-perspective_bce9a321-39cb-4cce-8ba6-02dab4c72e53_large.jpg');
+    opacity: 0.6;
+}
+
+.netflix-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.netflix-logo{
+    margin-left: 8rem;
+    margin-top: 1.5rem;
+    height: 3rem;
+    width: 5rem;
+}
+
+.dropdown-and-button {
+    margin-top: 1.5rem;
+    margin-right: 5rem;
+}
+
+.drop-down{
+    font-size: 1rem;
+    font-weight: 500;
+    height: 2rem;
+    width: 7rem;
+    line-height: 1.1rem;
+    background: transparent;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 0.25rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+}
+
+.sign-in-button{
+    font-size: 1rem;
+    font-weight: 500;
+    height: 2rem;
+    width: 5rem;
+    line-height: 1.1rem;
+    background-color: #e50914;
+    color: #ffffff;
+    margin-right: 5rem;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.netflix-main-section{
+    height: 50rem;
+    width: 50rem;
+    margin-left: 14rem;
+    margin-right: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+     margin-top: 5rem;
+     margin-bottom: 10rem;
+}
+
+.main-heading {
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+.start-price {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.description {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.user-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email1 {
+    height: 3rem;
+    width: 21rem;
+    background-color: #000000;
+    opacity: 0.5;
+    margin-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #ffffff;
+}
+
+.email1::placeholder {
+    color: #ffffff;
+}
+
+.started-button {
+     font-size: 1.5rem;
+     color: #ffffff;
+     background-color: #e50914;
+     height: 3rem;
+     width: 14rem;
+     text-align: center;
+     border-radius: 0.5rem;
+     padding-left: 0.5rem;
+     padding-right: 0.5rem;
+}
+
+.netflix-trending-section {
+    margin-top: -10rem;
+    z-index: 1;
+    position: relative;
+}
+
+.trending-heading{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 5rem;
+}
+
+
+.movies-container {
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    flex-wrap: nowrap;
+}
+
+.image {
+    margin-right: 2rem;
+}
+
+.more-reasons-to-join-section {
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+
+.more-reasons-heading {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin-left: 5rem;
+}
+
+.cards-container {
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    display: flex;
+}
+
+.card {
+    height: 20rem;
+    width: 18rem;
+    position: relative;
+    background-image: linear-gradient(135deg, #1b1e3e, #20121f);
+    margin-right: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.card-heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.card-description {
+    font-size: 1rem;
+    color: #ffffff;
+    opacity: 0.64;
+    padding: 1rem;
+}
+
+.icon {
+    height: 4rem;
+    width: 4rem;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 1rem;
+    position: absolute;
+}
+
+.faq-section {
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+
+.faq-heading {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin-left: 5rem;
+}
+
+.question-box { 
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    width: 70rem;
+    background-color: #414141;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.question {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.plus-sign { 
+    font-size: 2rem;
+    color: #ffffff;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.user-details {
+    margin-top: 3rem;
+}
+
+.email2 {
+    height: 3rem;
+    width: 30rem;
+    background-color: #000000;
+    opacity: 0.5;
+    margin-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #ffffff;
+}
+
+.email2::placeholder {
+    color: #ffffff;
+}
+
+.footer-section {
+    margin-top: 3rem;
+}
+
+a {
+    color: #ffffff;
+    padding-bottom: 1rem;
+}
+
+.call {
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+.footer-links {
+    margin:L 2rem;
+    display: flex;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 3rem;
+}
+
+.dropdown {
+    font-size: 1rem;
+    font-weight: 500;
+    height: 2rem;
+    width: 7rem;
+    line-height: 1.1rem;
+    background: transparent;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 0.25rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+.netflix-india {
+    font-size: 1rem;
+    margin-left: 5rem;
+    color: #ffffff;
+}
